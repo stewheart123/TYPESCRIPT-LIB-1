@@ -10,10 +10,10 @@ export class Person {
         this.lastName = lastName;
     }
     
-    // Method to get full name
-    getFullName(): string {
-        return `${this.firstName} ${this.lastName}`;
-    }
+    // // Method to get full name
+    // getFullName(): string {
+    //     return `${this.firstName} ${this.lastName}`;
+    // }
 }
 
 
