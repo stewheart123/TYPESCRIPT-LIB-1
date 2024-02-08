@@ -1,5 +1,5 @@
 // Define a class
-class Person {
+export class Person {
     // Properties
     firstName: string;
     lastName: string;
@@ -15,6 +15,7 @@ class Person {
         return `${this.firstName} ${this.lastName}`;
     }
 }
+
 
 // Create an instance of the class
 //const person = new Person("John", "Doe");
