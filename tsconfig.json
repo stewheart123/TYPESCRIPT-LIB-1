@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es5",                  /* Specify ECMAScript target version */
-    "module": "esnext",               /* Specify module code generation */
-    "strict": true,                   /* Enable all strict type-checking options */
-    "esModuleInterop": true,          /* Enable compatibility with CommonJS modules */
-    "forceConsistentCasingInFileNames": true, /* Ensure consistent casing in file names */
-    "outDir": "./dist"                /* Specify the output directory for compiled files */
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist"
   },
-  "include": ["src"]                  /* Specify the directory where TypeScript files are located */
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
